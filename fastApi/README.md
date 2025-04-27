@@ -76,8 +76,3 @@ flowchart TD
 Feel free to fork and extend it!
 This template is made for any developers wanting to understand USSD flows faster.
 
-```
-
-```
-
-```
