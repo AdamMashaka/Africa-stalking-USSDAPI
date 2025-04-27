@@ -67,7 +67,7 @@ flowchart TD
     F -->|2| H[SMS Support -> END SMS message]
     F -->|3| B
     B -->|4| I[Exit -> END Thank you message]
-
+```
 
 ---
 
