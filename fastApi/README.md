@@ -16,7 +16,7 @@ It shows developers how to structure multi-level USSD menus (Main Menu, Submenus
 2. Start the server:
 
    ```bash
-   uvicorn ussd_demo:app --host 0.0.0.0 --port 8000
+   uvicorn FastApi_ussd:app --host 0.0.0.0 --port 8000
    ```
 
 3. Your USSD endpoint will be available at:
@@ -25,7 +25,7 @@ It shows developers how to structure multi-level USSD menus (Main Menu, Submenus
    POST http://your-server/ussd
    ```
 
-4. use ngrok or ddeploy to a server for publick access.
+4. use ngrok or deploy to a server for public access.
 
 ---
 
@@ -67,7 +67,7 @@ flowchart TD
     F -->|2| H[SMS Support -> END SMS message]
     F -->|3| B
     B -->|4| I[Exit -> END Thank you message]
-
+```
 
 ---
 
@@ -76,19 +76,3 @@ flowchart TD
 Feel free to fork and extend it!
 This template is made for any developers wanting to understand USSD flows faster.
 
-```
-
----
-
-### 🔥 Quick Summary:
-
-- YES ✅ your format is README-ready.
-- Just add a title, maybe a "How to Run", and you're perfect.
-- Emojis and formatting are good and professional now.
-- Markdown tables and bullet points — excellent for documentation.
-
----
-
-```
-
-```
