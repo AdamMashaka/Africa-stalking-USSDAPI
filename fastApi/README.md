@@ -25,7 +25,7 @@ It shows developers how to structure multi-level USSD menus (Main Menu, Submenus
    POST http://your-server/ussd
    ```
 
-4. use ngrok or ddeploy to a server for publick access.
+4. use ngrok or deploy to a server for public access.
 
 ---
 
