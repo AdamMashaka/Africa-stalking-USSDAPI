@@ -16,7 +16,7 @@ It shows developers how to structure multi-level USSD menus (Main Menu, Submenus
 2. Start the server:
 
    ```bash
-   uvicorn ussd_demo:app --host 0.0.0.0 --port 8000
+   uvicorn FastApi_ussd:app --host 0.0.0.0 --port 8000
    ```
 
 3. Your USSD endpoint will be available at:
