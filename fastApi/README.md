@@ -78,17 +78,6 @@ This template is made for any developers wanting to understand USSD flows faster
 
 ```
 
----
-
-### 🔥 Quick Summary:
-
-- YES ✅ your format is README-ready.
-- Just add a title, maybe a "How to Run", and you're perfect.
-- Emojis and formatting are good and professional now.
-- Markdown tables and bullet points — excellent for documentation.
-
----
-
 ```
 
 ```
