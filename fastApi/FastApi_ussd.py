@@ -41,7 +41,7 @@ async def ussd_callback(request: Request):
         elif text_array[0] == "1":
             if len(text_array) == 1:
                 # User selected 1 from Main Menu
-                response = "END Your balance is KES 1,000. Thank you."
+                response = "END Your balance is TSH 1,000. Thank you."
 
         # ========== OPTION 2: Buy Airtime ==========
         elif text_array[0] == "2":
@@ -52,7 +52,7 @@ async def ussd_callback(request: Request):
                 # SUBMENU LEVEL 2: Process amount
                 amount = text_array[1]
                 if amount.isdigit():
-                    response = f"END You have bought airtime worth KES {amount}. Thank you."
+                    response = f"END You have bought airtime worth TSH {amount}. Thank you."
                 else:
                     response = "END Invalid amount. Please enter numbers only."
 
